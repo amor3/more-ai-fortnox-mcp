@@ -1,0 +1,20 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "cloud.amore.accounting/fortnox",
+  "title": "More AI - ChatGPT & Claude MCP (Fortnox)",
+  "description": "Fortnox MCP server: ask ChatGPT or Claude about your books, and approve every change first.",
+  "version": "1.0.1",
+  "websiteUrl": "https://accounting.amore.cloud/fortnox-mcp/",
+  "icons": [
+    {
+      "src": "https://accounting.amore.cloud/ikon.svg",
+      "mimeType": "image/svg+xml"
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://accounting.amore.cloud/mcp"
+    }
+  ]
+}
